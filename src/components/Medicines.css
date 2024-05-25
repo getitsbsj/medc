@@ -1,0 +1,48 @@
+/* Medicines.css */
+
+.medicines-container {
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .medicines-heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .medicines-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .medicine-item {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-name {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .medicine-details {
+    color: #666;
+  }
+  
+  .no-medicines {
+    color: #666;
+  }
+  

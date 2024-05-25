@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.NavigationBar {
+  background-color: rgb(48, 128, 208);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.NavigationBar .navigate {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.NavigationBar .navigate:hover {
+  text-decoration: underline;
+}
+
+.homepage header {
+  background-color: rgb(32, 104, 176);
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px; 
+}
+
+.homepage header h1 {
+  margin: 0;
+}
+
+.homepage main {
+  padding: 20px;
+}
+
+.homepage section {
+  margin-bottom: 50px;
+}
+
+.homepage section h2 {
+  color: oceanblue;
+}
+
+.carousel .slide img {
+  display: flexbox ;
+  width: 50%;
+  height: 50%;
+  width: 50%;
+}
+
+
