@@ -1,22 +1,16 @@
+// App.js
 import React from 'react';
-import { Routes, Route, Link} from 'react-router-dom';
-import Home from './components/Home';
-import DiseaseList from './components/DiseaseList';
-import DiseaseDetail from './components/DiseaseDetail';
+import './App.css';
+import Header from './Header';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <nav>
-        <Link to="/">Home</Link>
-
-      </nav>
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        
-      </Routes>
+    <div>
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
